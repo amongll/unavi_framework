@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: libunavi
+URL: http://gforge.1verge.net/
+Description: unavi programing framework
+Version: 0.1.0
+Libs: -L${libdir} -lunavi -ljansson @LIBS@
+Libs.private: @LIBS@
+Cflags: -I${includedir}/unavi
